@@ -8,7 +8,9 @@ URL = f"https://www.symphonya.eu/api/getProducts/{API_KEY}"
 
 response = requests.get(URL)
 products = response.json()
-print("DEBUG:", products)
+
+print("🔍 DEBUG - Conteúdo da resposta:")
+print(products)
 exit()
 
 
