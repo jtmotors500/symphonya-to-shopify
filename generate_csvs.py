@@ -8,6 +8,9 @@ URL = f"https://www.symphonya.eu/api/getProducts/{API_KEY}"
 
 response = requests.get(URL)
 products = response.json()
+print("DEBUG:", products)
+exit()
+
 
 # Agrupa os produtos por categoria
 categorias = defaultdict(list)
