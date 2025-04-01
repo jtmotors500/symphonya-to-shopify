@@ -38,7 +38,7 @@ for categoria, items in categorias.items():
                 "",
                 p["brand"],
                 p["category"],
-                f"{p['gender']}, {p['type']}",
+                f"{p['gender']}, {p['subcategory']}, {p['subsubcategory']}",
                 "TRUE",
                 "Title",
                 "Default Title",
