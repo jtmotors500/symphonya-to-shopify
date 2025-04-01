@@ -7,12 +7,7 @@ API_KEY = "101c8e9a0f9ed4ffe77b2c8658a85f57bd6e1296"
 URL = f"https://www.symphonya.eu/api/getProducts/{API_KEY}"
 
 response = requests.get(URL)
-products = response.json()
-
-print("🔍 DEBUG - Conteúdo da resposta:")
-print(products)
-exit()
-
+products = response.json()["raspuns"]
 
 # Agrupa os produtos por categoria
 categorias = defaultdict(list)
