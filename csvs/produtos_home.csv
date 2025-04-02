@@ -1,2 +1,2 @@
-Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Variant Inventory Qty
-"set,-geoffrey-beene,-eau-de-grey-flannel,-metal-cup-holder,-grey,-4-pcs","Set, Geoffrey Beene, Eau de Grey Flannel, Metal Cup Holder, Grey, 4 pcs",,Geoffrey Beene,Home,"Unisex, Home Accessories, Metal Cup Holder",TRUE,Title,Default Title,0716393022955,4.36,2
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Variant Compare At Price,Variant Inventory Qty,Image Src
+"set,-geoffrey-beene,-eau-de-grey-flannel,-metal-cup-holder,-grey,-4-pcs","Set, Geoffrey Beene, Eau de Grey Flannel, Metal Cup Holder, Grey, 4 pcs",<p>Geoffrey Beene - Regular</p>,Geoffrey Beene,Home / Home Accessories,"Unisex, Regular, Home Accessories",TRUE,Title,Default Title,0716393022955,4.36,22.00,2,https://www.mewse.ro/images/produse/geoffrey-beene-eau-de-grey-flannel-cup-holder-grey-x4-pcs-1688471324.png
