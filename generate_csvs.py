@@ -20,7 +20,8 @@ os.makedirs("csvs", exist_ok=True)
 # Cabeçalho Shopify
 cabecalho = [
     "Handle", "Title", "Body (HTML)", "Vendor", "Type", "Tags", "Published",
-    "Option1 Name", "Option1 Value", "Variant SKU", "Variant Price", "Variant Inventory Qty"
+    "Option1 Name", "Option1 Value", "Variant SKU", "Variant Price", "Variant Compare At Price",
+    "Variant Inventory Qty", "Image Src"
 ]
 
 # Cria um CSV por categoria
@@ -35,14 +36,17 @@ for categoria, items in categorias.items():
             writer.writerow([
                 handle,
                 p["name"],
-                "",
+                f"<p>{p['brand']} - {p['presentation']}</p>",
                 p["brand"],
-                p["category"],
-                f"{p['gender']}, {p['subcategory']}, {p['subsubcategory']}",
+                f"{p['category']} / {p['subcategory']}",
+                f"{p['gender']}, {p['presentation']}, {p['subcategory']}",
                 "TRUE",
                 "Title",
                 "Default Title",
                 p["ean"],
                 p["price"],
-                p["stock"]
+                p["rrp"],
+                p["stock"],
+                p["image"]
             ])
+
